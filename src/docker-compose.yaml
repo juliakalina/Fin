@@ -1,0 +1,32 @@
+version: '3'
+
+networks:
+  mynetwork:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.30.0.0/16
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: base23
+      POSTGRES_DB: finance2
+    networks:
+      mynetwork:
+        ipv4_address: 172.30.0.2
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  finspect:
+    image: finspect
+    ports:
+      - 80:8123
+    networks:
+      mynetwork:
+        ipv4_address: 172.30.0.3
+    depends_on:
+      - postgres
