@@ -22,5 +22,5 @@
 - Переход на сайт осуществляется по доменному адресу сервера или его белому ip-адресу. В случае локальной развертки по статическому ip-адресу докер-контейнера, порту 8123: `http://172.30.0.3:8123/register`
 - Для отладки каждого из докер-контейнеров: `docker logs fin-finspect-1` или `docker logs fin-postgres-1`
 ---
-<img width="484" alt="image" src="https://github.com/juliakalina/web_app_Finspect/assets/70514331/e9af3a78-3cec-4fff-a706-14bfdeb0a448">
+![image](https://github.com/juliakalina/Fin/assets/70514331/66f0fa93-759b-4937-943c-c08341e90dd8)
 
