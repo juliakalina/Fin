@@ -16,4 +16,4 @@
 -	Управление счетами (создание; редактирование названия; удаление счета)
 
 ---
-<img width="484" alt="image" src="https://github.com/juliakalina/web_app_Finspect/assets/70514331/e9af3a78-3cec-4fff-a706-14bfdeb0a448">
+<img width="484" alt="image" src="https://github.com/juliakalina/Fin/assets/70514331/e9af3a78-3cec-4fff-a706-14bfdeb0a448">
