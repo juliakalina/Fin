@@ -16,4 +16,5 @@
 -	Управление счетами (создание; редактирование названия; удаление счета)
 
 ---
-<img width="484" alt="image" src="https://github.com/juliakalina/Fin/assets/70514331/e9af3a78-3cec-4fff-a706-14bfdeb0a448">
+![image](https://github.com/juliakalina/Fin/assets/70514331/66f0fa93-759b-4937-943c-c08341e90dd8)
+
