@@ -23,3 +23,4 @@
 - Для отладки каждого из докер-контейнеров: `docker logs fin-finspect-1` или `docker logs fin-postgres-1`
 ---
 <img width="484" alt="image" src="https://github.com/juliakalina/web_app_Finspect/assets/70514331/e9af3a78-3cec-4fff-a706-14bfdeb0a448">
+
